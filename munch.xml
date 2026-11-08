@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com" />
+  <remote name="codeberg" fetch="https://codeberg.org" />
+
+  <!-- Device Tree -->
+  <project name="Arunpain/android_device_xiaomi_munch" path="device/xiaomi/munch" remote="github" revision="16.0" />
+
+  <!-- Vendor Blobs -->
+  <project name="Arunpain/vendor_xiaomi_munch" path="vendor/xiaomi/munch" remote="github" revision="lineage-24.0" />
+
+  <!-- Munch Firmware -->
+  <project name="munch-devs/android_vendor_xiaomi_munch-firmware" path="vendor/xiaomi/munch-firmware" remote="codeberg" revision="16.2" />
+
+  <!-- Kernel Source -->
+  <project name="munch-devs/android_kernel_xiaomi_munch" path="kernel/xiaomi/sm8250" remote="github" revision="e404" />
+
+  <!-- Hardware Xiaomi -->
+  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16.0" />
+</manifest>
